@@ -10,8 +10,11 @@
     "spotify-web-api-js": "^1.2.0",
     "spotify-web-api-node": "^4.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
   "scripts": {
+    "dev": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
